@@ -17,14 +17,11 @@ The app has no build step: it's plain files you upload. Your data is stored only
 
 ## Publish on GitHub Pages
 
-1. Open your repo (for example `esthyu/budget-planner-2026`) and replace its contents with the files in this folder.
+1. Create a new public repo named `ES-budget` and upload the files in this folder (the files themselves, not the folder).
 2. Go to **Settings → Pages**, set Source to **Deploy from a branch**, then choose `main` and `/ (root)`, and save.
-3. After a minute the app is live at `https://esthyu.github.io/budget-planner-2026/`.
+3. After a minute the app is live at `https://esthyu.github.io/ES-budget/`.
 
-Your repo currently deploys a Vite build from the `gh-pages` branch. There are two ways to handle that:
-
-- **Point Pages at `main` / root as above.** This is the simplest option.
-- **Upload these files to the `gh-pages` branch instead.**
+The old `budget-planner-2026` repo still shows personal data in its code. Once this one works, set the old repo to private (Settings → General → Danger Zone → Change visibility).
 
 ## Install on iPhone
 
